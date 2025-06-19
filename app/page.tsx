@@ -216,7 +216,7 @@ export default function Home() {
       <header className="fixed top-0 left-0 right-0 z-50 bg-gray-800/90 backdrop-blur-sm">
         <nav className="container mx-auto px-4 py-4 flex justify-between items-center">
           <a href="#" className="text-2xl font-bold text-primary flex items-center gap-2">
-            <Image src="/images/mvlogo.png" alt="ManagedV Logo" width={32} height={32} className="h-8" />
+            <Image src="/images/mvlogo.png" alt="ManagedV AI Ventures Logo" width={32} height={32} className="h-8" />
             <span>ManagedV</span>
           </a>
           <div className="hamburger md:hidden">
@@ -248,7 +248,7 @@ export default function Home() {
       </header>
 
       <main className="flex flex-col min-h-screen pt-16">
-        <div id="about" className="flex flex-col items-center justify-center min-h-screen px-4 relative z-10">
+        <div id="about" className="flex flex-col items-center justify-center min-h-screen px-4 pt-16 sm:pt-24 relative z-10">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -273,20 +273,20 @@ export default function Home() {
             <div className="relative group">
               <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-blue-500/10 rounded-xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
               <div className="relative bg-white border border-gray-200 rounded-xl p-6 shadow-lg">
-                <div className="flex items-center justify-between mb-4">
+                <div className="flex flex-wrap items-center justify-between mb-4 gap-2">
                   <a href="https://mvara.ai" target="_blank" className="flex items-center gap-2 hover:opacity-90 transition-opacity">
-                    <Image src="/images/mvara-logo-white.svg" alt="mVara Logo" width={32} height={32} className="h-8 w-auto" priority />
+                    <Image src="/images/mvara-logo-white.svg" alt="mVara.ai Logo" width={32} height={32} className="h-8 w-auto" priority />
                   </a>
                   <a 
                     href="https://mvara.ai" 
                     target="_blank" 
-                    className="bg-blue-600 hover:bg-purple-500 text-white font-medium px-4 py-2 rounded-md transition-all hover:shadow-lg active:bg-purple-600 active:scale-95"
+                    className="bg-blue-600 hover:bg-purple-500 text-white font-medium px-4 py-2 rounded-md transition-all hover:shadow-lg active:bg-purple-600 active:scale-95 text-sm sm:text-base whitespace-nowrap"
                   >
                     Transform Your Enterprise
                   </a>
                 </div>
                 <p className="text-gray-700 mb-4">
-                  Our flagship venture helping executives transform knowledge work through AI advisory and Windsurf-powered solutions that deliver 3x ROI within the first year
+                  Our flagship venture mVara.ai provides AI Advisory & Enablement for Modern Enterprises. As an Official Windsurf Partner, mVara.ai delivers measurable results with 3x ROI in the first year, reducing backlogs by 40% and time-to-market by 30%.
                 </p>
               </div>
             </div>
@@ -304,7 +304,7 @@ export default function Home() {
           </motion.div>
         </div>
 
-        <section id="approach" className="pt-8 pb-16 px-4 bg-gray-900/50 backdrop-blur-sm">
+        <section id="approach" className="pt-16 pb-16 px-4 bg-gray-900/50 backdrop-blur-sm">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">The Approach</h2>
             <div className="grid md:grid-cols-3 gap-8">

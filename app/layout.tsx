@@ -3,14 +3,14 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'ManagedV - Building AI-First Ventures',
-  description: 'Managed Ventures LLC specializes in launching, innovating, and scaling AI-first companies. We transform visionary AI concepts into market-changing realities.',
+  description: 'Premier AI venture builder and technology incubator in Scottsdale. Managed Ventures LLC specializes in launching, innovating, and scaling AI-first companies with proven expertise. Transform your visionary AI concepts into market-changing realities.',
   keywords: 'AI ventures, startup incubator, AI investment, venture building, AI innovation, tech startups, Scottsdale',
   authors: [{ name: 'Jack Crawford', url: 'https://managedv.com' }],
   creator: 'Managed Ventures LLC',
   publisher: 'Managed Ventures LLC',
   openGraph: {
     title: 'ManagedV - Building AI-First Ventures',
-    description: 'Managed Ventures LLC specializes in launching, innovating, and scaling AI-first companies. We transform visionary AI concepts into market-changing realities.',
+    description: 'Unlock the future of AI innovation with Managed Ventures LLC, the premier AI venture builder and technology incubator in Scottsdale. Discover how our expertise in launching, innovating, and scaling AI-first companies can transform your visionary concepts into market-changing realities.',
     url: 'https://managedv.com',
     siteName: 'Managed Ventures',
     locale: 'en_US',
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'ManagedV - Building AI-First Ventures',
-    description: 'Managed Ventures LLC specializes in launching, innovating, and scaling AI-first companies.',
+    description: 'Premier AI venture builder specializing in launching, innovating, and scaling AI-first companies with proven expertise in the technology sector.',
     creator: '@jackccrawford',
   },
   robots: {
