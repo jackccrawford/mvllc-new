@@ -1,23 +1,25 @@
-# ManagedV Website 🚀
+# ManagedV Website
 
-[![Next.js](https://img.shields.io/badge/Next.js-14.2.30-black?logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue?logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
-[![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.0-ff69b4?logo=framer)](https://www.framer.com/motion/)
-[![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
+[![Windsurf](https://img.shields.io/badge/Built%20with-Windsurf-0066CC.svg?style=flat)](https://codeium.com/windsurf)
+[![Next.js](https://img.shields.io/badge/Next.js-14.2.30-black?style=flat&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.4-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=flat&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer-11.0-0055FF?style=flat&logo=framer&logoColor=white)](https://www.framer.com/motion/)
+[![License](https://img.shields.io/badge/License-Proprietary-red?style=flat)](LICENSE)
+[![ManagedV](https://img.shields.io/badge/By-ManagedV-4DFFD2.svg?style=flat)](https://www.managedv.com)
 
 > Building AI-First Ventures - Turning visionary AI concepts into market-changing realities
 
-## 🌟 Features
+## Features
 
-- ⚡️ **Lightning Fast**: Built with Next.js 13.5 for optimal performance
-- 🎨 **Modern Design**: Sleek UI powered by Tailwind CSS
-- 🔄 **Smooth Animations**: Enhanced user experience with Framer Motion
-- 📱 **Fully Responsive**: Perfect display on all devices
-- 🛠 **Type-Safe**: Written in TypeScript for reliability
-- 🎯 **SEO Optimized**: Built-in SEO best practices
+- **Lightning Fast**: Built with Next.js 13.5 for optimal performance
+- **Modern Design**: Sleek UI powered by Tailwind CSS
+- **Smooth Animations**: Enhanced user experience with Framer Motion
+- **Fully Responsive**: Perfect display on all devices
+- **Type-Safe**: Written in TypeScript for reliability
+- **SEO Optimized**: Built-in SEO best practices
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Clone the repository
@@ -37,7 +39,7 @@ The development server will start on `http://localhost:3090`
 
 ## 🛠 Tech Stack
 
-- **Framework**: [Next.js 13.5](https://nextjs.org/)
+- **Framework**: [Next.js 14.2.30](https://nextjs.org/)
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 - **Animations**: [Framer Motion](https://www.framer.com/motion/)
@@ -47,7 +49,7 @@ The development server will start on `http://localhost:3090`
   - Prettier for code formatting
   - PostCSS for CSS processing
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 mvllc-new/
@@ -62,7 +64,7 @@ mvllc-new/
 └── lib/                 # Utility functions
 ```
 
-## 🔧 Configuration
+## Configuration
 
 The project uses several configuration files:
 
@@ -71,7 +73,7 @@ The project uses several configuration files:
 - `postcss.config.mjs` - PostCSS configuration
 - `tsconfig.json` - TypeScript configuration
 
-## 🌐 Deployment
+## Deployment
 
 The site is configured for deployment on Netlify:
 
@@ -88,11 +90,11 @@ netlify deploy --prod     # Deploy to production
 
 Alternatively, you can connect your GitHub repository to Netlify for automatic deployments on push.
 
-## 📝 License
+## License
 
-This project is proprietary and confidential. Copyright © 2025 Managed Ventures LLC. All rights reserved. See the [LICENSE](LICENSE) file for details.
+This project is proprietary. Copyright © 2025 Managed Ventures LLC. All rights reserved. See the [LICENSE](LICENSE) file for details.
 
-## 📱 Mobile-First Design
+## Mobile-First Design
 
 The site is optimized for all devices with special attention to mobile responsiveness:
 - Responsive typography and layout
@@ -101,7 +103,7 @@ The site is optimized for all devices with special attention to mobile responsiv
 - Properly spaced sections for mobile viewing
 
 
-## 🔍 SEO Optimization
+## SEO Optimization
 
 Built with comprehensive SEO best practices:
 - Rich meta descriptions and Open Graph tags
@@ -110,12 +112,8 @@ Built with comprehensive SEO best practices:
 - Dynamic sitemap generation
 - Mobile performance optimization
 
-## 👤 Author
 
-**Jack Crawford**
-- Website: [ManagedV](https://managedv.com)
-- Location: Scottsdale, AZ
-
----
-
-<p align="center">Made with ❤️ by Jack Crawford</p>
+<p align="center">
+  <i>Copyright 2025 Managed Ventures LLC.</i><br>
+  <i>Scottsdale, AZ, USA</i>
+</p>
