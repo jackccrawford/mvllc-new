@@ -28,6 +28,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# project documentation
+DEPLOYMENT_PLAN.md
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
