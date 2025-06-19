@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className="bg-black text-white min-h-screen">{children}</body>
+      <body className="bg-gray-900 text-white min-h-screen">{children}</body>
     </html>
   )
 }

@@ -1,9 +1,9 @@
 # ManagedV Website 🚀
 
-[![Next.js](https://img.shields.io/badge/Next.js-13.5-black?logo=next.js)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue?logo=typescript)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
-[![Framer Motion](https://img.shields.io/badge/Framer_Motion-10.16-ff69b4?logo=framer)](https://www.framer.com/motion/)
+[![Next.js](https://img.shields.io/badge/Next.js-14.2.30-black?logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue?logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.0-ff69b4?logo=framer)](https://www.framer.com/motion/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 > Building AI-First Ventures - Turning visionary AI concepts into market-changing realities
@@ -51,13 +51,13 @@ The development server will start on `http://localhost:3090`
 
 ```
 mvllc-new/
-├── app/                   # Next.js 13 app directory
+├── app/                   # Next.js 14 app directory
 │   ├── layout.tsx        # Root layout
-│   └── page.tsx          # Home page
+│   └── page.tsx          # Home page with ManagedV content
 ├── components/           # React components
-│   └── ui/              # UI components
+│   └── ui/              # UI components (Shadcn/ui)
 ├── public/              # Static assets
-│   └── images/          # Image files
+│   └── images/          # Image files including mVara logos
 ├── styles/              # Global styles
 └── lib/                 # Utility functions
 ```
@@ -73,15 +73,20 @@ The project uses several configuration files:
 
 ## 🌐 Deployment
 
-The site is configured for easy deployment on platforms like Vercel:
+The site is configured for deployment on Netlify:
 
 ```bash
 # Build for production
 npm run build
 
-# Start production server
-npm start
+# Deploy to Netlify using Netlify CLI
+npm install -g netlify-cli  # Install Netlify CLI if not already installed
+netlify login             # Login to your Netlify account
+netlify init              # Initialize a new Netlify site
+netlify deploy --prod     # Deploy to production
 ```
+
+Alternatively, you can connect your GitHub repository to Netlify for automatic deployments on push.
 
 ## 📝 License
 
