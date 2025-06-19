@@ -7,15 +7,159 @@ import { useState, useEffect, useRef } from 'react'
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [modalOpen, setModalOpen] = useState(false);
-  const [modalContent, setModalContent] = useState<{ title: string; url: string } | null>(null);
+  const [modalContent, setModalContent] = useState<{ title: string; content: React.ReactNode } | null>(null);
   const modalRef = useRef<HTMLDivElement>(null);
   
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
   
-  const openModal = (title: string, url: string) => {
-    setModalContent({ title, url });
+  const openModal = (title: string, contentType: 'tos' | 'privacy' | 'license') => {
+    let content: React.ReactNode;
+    
+    if (contentType === 'tos') {
+      content = (
+        <div className="text-gray-300">
+          <h2 className="text-xl font-bold mb-4">Terms of Service</h2>
+          <p className="mb-4">Welcome to Managed Ventures</p>
+          <p className="mb-4">These terms and conditions outline the rules and regulations for the use of the Managed Ventures Website, located at https://managedv.com.</p>
+          <p className="mb-4">By accessing this website we assume you accept these terms and conditions. Do not continue to use the website if you do not agree to take all of the terms and conditions stated on this page.</p>
+          
+          <h3 className="text-lg font-semibold mb-2">License</h3>
+          <p className="mb-4">Unless otherwise stated, Managed Ventures LLC and/or its licensors own the intellectual property rights for all material on the website. All intellectual property rights are reserved. You may access this content for your own personal use subjected to restrictions set in these terms and conditions.</p>
+          
+          <h3 className="text-lg font-semibold mb-2">User Obligations</h3>
+          <p className="mb-4">You must not:</p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>Republish material from the Managed Ventures website</li>
+            <li>Sell, rent or sub-license material from the website</li>
+            <li>Reproduce, duplicate or copy material from the website</li>
+            <li>Redistribute content from the website</li>
+          </ul>
+          
+          <h3 className="text-lg font-semibold mb-2">Disclaimer</h3>
+          <p className="mb-4">
+            The information and services on the website are provided on an 'as is' basis. Managed Ventures LLC makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+          </p>
+          <p className="mb-4">
+            Further, Managed Ventures LLC does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.
+          </p>
+          
+          <h3 className="text-lg font-semibold mb-2">Governing Law</h3>
+          <p className="mb-4">These terms and conditions are governed by and construed in accordance with the laws of Arizona, USA and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.</p>
+        </div>
+      );
+    } else if (contentType === 'privacy') {
+      content = (
+        <div className="text-gray-300">
+          <h2 className="text-xl font-bold mb-4">Privacy Policy</h2>
+          <p className="mb-4"><strong>Effective Date:</strong> June 1, 2024</p>
+          <p className="mb-4"><strong>Managed Ventures</strong> ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website managedv.com, including any other media form, media channel, mobile website, or mobile application related or connected thereto (collectively, the "Site"). Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.</p>
+          
+          <h3 className="text-lg font-semibold mb-2">1. Information We Collect</h3>
+          <p className="mb-4">We may collect information about you in a variety of ways. The information we may collect on the Site includes:</p>
+          
+          <h4 className="text-md font-semibold mb-2">Personal Data</h4>
+          <p className="mb-4">Personally identifiable information, such as your name, shipping address, email address, and telephone number, and demographic information, such as your age, gender, hometown, and interests, that you voluntarily give to us when you register with the Site or when you choose to participate in various activities related to the Site, such as online chat and message boards.</p>
+          
+          <h4 className="text-md font-semibold mb-2">Derivative Data</h4>
+          <p className="mb-4">Information our servers automatically collect when you access the Site, such as your IP address, your browser type, your operating system, your access times, and the pages you have viewed directly before and after accessing the Site.</p>
+          
+          <h4 className="text-md font-semibold mb-2">Financial Data</h4>
+          <p className="mb-4">Financial information, such as data related to your payment method (e.g., valid credit card number, card brand, expiration date) that we may collect when you purchase, order, return, exchange, or request information about our services from the Site.</p>
+          
+          <h3 className="text-lg font-semibold mb-2">2. Use of Your Information</h3>
+          <p className="mb-4">Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the Site to:</p>
+          <ul className="list-disc pl-6 mb-4">
+            <li>Create and manage your account.</li>
+            <li>Process your transactions and send you related information, including purchase confirmations and invoices.</li>
+            <li>Administer sweepstakes, promotions, and contests.</li>
+            <li>Request feedback and contact you about your use of the Site.</li>
+            <li>Resolve disputes and troubleshoot problems.</li>
+            <li>Respond to product and customer service requests.</li>
+            <li>Send you a newsletter.</li>
+            <li>Prevent fraudulent transactions, monitor against theft, and protect against criminal activity.</li>
+            <li>Fulfill and manage purchases, orders, payments, and other transactions related to the Site.</li>
+          </ul>
+          
+          <h3 className="text-lg font-semibold mb-2">3. Contact Us</h3>
+          <p className="mb-4">If you have questions or comments about this Privacy Policy, please contact us at:</p>
+          <p className="mb-4">
+            Managed Ventures<br />
+            Email: legal@managedv.com
+          </p>
+        </div>
+      );
+    } else if (contentType === 'license') {
+      content = (
+        <div className="text-gray-300">
+          <h2 className="text-xl font-bold mb-4">PROPRIETARY LICENSE AGREEMENT</h2>
+          <p className="mb-4">Copyright © 2025 Managed Ventures LLC. All Rights Reserved.</p>
+          
+          <p className="mb-4">
+            This software and its documentation, including all content, code, design, and associated materials (the "Software"), are the confidential and proprietary information of Managed Ventures LLC ("Company").
+          </p>
+          
+          <p className="mb-4">
+            This proprietary license agreement ("Agreement") governs the use of the Software. By accessing, downloading, installing, copying, or otherwise using the Software, you agree to be bound by the terms of this Agreement.
+          </p>
+          
+          <h3 className="text-lg font-semibold mb-2">1. OWNERSHIP</h3>
+          <p className="mb-4">
+            All right, title, and interest in and to the Software, including all intellectual property rights, are and shall remain the exclusive property of the Company. The Software is protected by copyright, trade secret, and other intellectual property laws.
+          </p>
+          
+          <h3 className="text-lg font-semibold mb-2">2. LICENSE GRANT</h3>
+          <p className="mb-4">
+            Subject to the terms and conditions of this Agreement, the Company grants you a limited, non-transferable, non-sublicensable, revocable license to use the Software solely for your internal business purposes.
+          </p>
+          
+          <h3 className="text-lg font-semibold mb-2">3. RESTRICTIONS</h3>
+          <p className="mb-4">You shall not, and shall not permit any third party to:</p>
+          <p className="mb-4">
+            a) Copy, modify, adapt, translate, or create derivative works of the Software;<br />
+            b) Reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code of the Software;<br />
+            c) Rent, lease, distribute, sell, resell, assign, or otherwise transfer rights to the Software;<br />
+            d) Remove any proprietary notices or labels from the Software;<br />
+            e) Use the Software for any purpose not expressly permitted by this Agreement.
+          </p>
+          
+          <h3 className="text-lg font-semibold mb-2">4. CONFIDENTIALITY</h3>
+          <p className="mb-4">
+            The Software contains valuable trade secrets and proprietary information of the Company. You shall maintain the confidentiality of the Software and shall not disclose the Software to any third party without the prior written consent of the Company.
+          </p>
+          
+          <h3 className="text-lg font-semibold mb-2">5. WARRANTY DISCLAIMER</h3>
+          <p className="mb-4">
+            THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. THE COMPANY DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WITHOUT LIMITATION ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+          </p>
+          
+          <h3 className="text-lg font-semibold mb-2">6. LIMITATION OF LIABILITY</h3>
+          <p className="mb-4">
+            IN NO EVENT SHALL THE COMPANY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION DAMAGES FOR LOST PROFITS, LOSS OF USE, LOSS OF DATA, OR BUSINESS INTERRUPTION, ARISING OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THIS AGREEMENT.
+          </p>
+          
+          <h3 className="text-lg font-semibold mb-2">7. TERMINATION</h3>
+          <p className="mb-4">
+            This Agreement shall continue until terminated. The Company may terminate this Agreement at any time if you breach any provision of this Agreement. Upon termination, you shall cease all use of the Software and destroy all copies of the Software in your possession or control.
+          </p>
+          
+          <h3 className="text-lg font-semibold mb-2">8. GENERAL</h3>
+          <p className="mb-4">
+            This Agreement shall be governed by and construed in accordance with the laws of the United States and the State of California, without giving effect to any principles of conflicts of law. Any dispute arising out of or relating to this Agreement shall be subject to the exclusive jurisdiction of the state and federal courts located in California.
+          </p>
+          
+          <p className="mb-4">
+            Managed Ventures LLC<br />
+            18291 N Pima Rd, Suite 110-411<br />
+            Scottsdale, AZ 85258<br />
+            legal@managedv.com
+          </p>
+        </div>
+      );
+    }
+    
+    setModalContent({ title, content });
     setModalOpen(true);
     document.body.style.overflow = 'hidden'; // Prevent scrolling behind modal
   };
@@ -236,19 +380,19 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap justify-center md:justify-end mt-4 md:mt-0 gap-4">
               <button 
-                onClick={() => openModal('Terms of Service', '/tos.html')} 
+                onClick={() => openModal('Terms of Service', 'tos')} 
                 className="text-xs text-gray-500 hover:text-primary transition-colors"
               >
                 Terms of Service
               </button>
               <button 
-                onClick={() => openModal('Privacy Policy', '/privacy.html')} 
+                onClick={() => openModal('Privacy Policy', 'privacy')} 
                 className="text-xs text-gray-500 hover:text-primary transition-colors"
               >
                 Privacy Policy
               </button>
               <button 
-                onClick={() => openModal('License', '/LICENSE')} 
+                onClick={() => openModal('License', 'license')} 
                 className="text-xs text-gray-500 hover:text-primary transition-colors"
               >
                 License
@@ -278,11 +422,7 @@ export default function Home() {
               </button>
             </div>
             <div className="flex-1 overflow-auto p-4">
-              <iframe 
-                src={modalContent.url} 
-                className="w-full h-full min-h-[50vh] bg-white rounded"
-                title={modalContent.title}
-              />
+              {modalContent.content}
             </div>
           </div>
         </div>
