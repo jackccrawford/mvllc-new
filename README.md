@@ -4,7 +4,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.4-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-11.0-ff69b4?logo=framer)](https://www.framer.com/motion/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-Proprietary-red.svg)](LICENSE)
 
 > Building AI-First Ventures - Turning visionary AI concepts into market-changing realities
 
@@ -90,16 +90,31 @@ Alternatively, you can connect your GitHub repository to Netlify for automatic d
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is proprietary and confidential. Copyright © 2025 Managed Ventures LLC. All rights reserved. See the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
+## 📱 Mobile-First Design
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/jackccrawford/mvllc-new/issues).
+The site is optimized for all devices with special attention to mobile responsiveness:
+- Responsive typography and layout
+- Touch-friendly navigation
+- Optimized button sizing and spacing
+- Properly spaced sections for mobile viewing
+
+
+## 🔍 SEO Optimization
+
+Built with comprehensive SEO best practices:
+- Rich meta descriptions and Open Graph tags
+- Semantic HTML structure
+- Optimized content with relevant keywords
+- Dynamic sitemap generation
+- Mobile performance optimization
 
 ## 👤 Author
 
 **Jack Crawford**
-- GitHub: [@jackccrawford](https://github.com/jackccrawford)
+- Website: [ManagedV](https://managedv.com)
+- Location: Scottsdale, AZ
 
 ---
 
