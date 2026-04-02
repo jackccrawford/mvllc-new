@@ -228,7 +228,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-r from-orange-500/10 to-yellow-500/10 rounded-xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
               <div className="relative bg-white border border-gray-200 rounded-xl p-6 shadow-lg h-full group-hover:shadow-xl transition-shadow">
                 <div className="mb-4">
-                  <span className="text-xl font-bold text-gray-900">agent<span className="text-orange-500">door</span></span>
+                  <Image src="/images/agentdoor-wordmark.png" alt="agentdoor" width={140} height={32} className="h-7 w-auto" />
                 </div>
                 <p className="text-gray-700 text-sm">
                   Open source tools for AI agents. Geniuz, Clawmark, Token Scout, and more — free on GitHub.
