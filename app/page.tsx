@@ -217,7 +217,7 @@ export default function Home() {
               <div className="relative bg-white border border-gray-200 rounded-xl p-6 shadow-lg h-full">
                 <div className="flex items-center justify-between mb-4">
                   <a href="https://mvara.ai" target="_blank" className="flex items-center gap-2 hover:opacity-90 transition-opacity">
-                    <Image src="/images/mvara-logo-white.svg" alt="mVara Logo" width={32} height={32} className="h-8 w-auto" priority />
+                    <Image src="/images/mvara-relay-wordmark-light.png" alt="mVara RELAY" width={120} height={32} className="h-7 w-auto" priority />
                   </a>
                   <a
                     href="https://mvara.ai"
