@@ -21,139 +21,81 @@ export default function Home() {
       content = (
         <div className="text-gray-300">
           <h2 className="text-xl font-bold mb-4">Terms of Service</h2>
-          <p className="mb-4">Welcome to Managed Ventures</p>
-          <p className="mb-4">These terms and conditions outline the rules and regulations for the use of the Managed Ventures Website, located at https://managedv.com.</p>
-          <p className="mb-4">By accessing this website we assume you accept these terms and conditions. Do not continue to use the website if you do not agree to take all of the terms and conditions stated on this page.</p>
-          
-          <h3 className="text-lg font-semibold mb-2">License</h3>
-          <p className="mb-4">Unless otherwise stated, Managed Ventures LLC and/or its licensors own the intellectual property rights for all material on the website. All intellectual property rights are reserved. You may access this content for your own personal use subjected to restrictions set in these terms and conditions.</p>
-          
-          <h3 className="text-lg font-semibold mb-2">User Obligations</h3>
-          <p className="mb-4">You must not:</p>
-          <ul className="list-disc pl-6 mb-4">
-            <li>Republish material from the Managed Ventures website</li>
-            <li>Sell, rent or sub-license material from the website</li>
-            <li>Reproduce, duplicate or copy material from the website</li>
-            <li>Redistribute content from the website</li>
-          </ul>
-          
+          <p className="mb-4"><strong>Effective Date:</strong> April 1, 2026</p>
+          <p className="mb-4"><strong>Managed Ventures LLC</strong> operates this website. By using this website, you agree to these terms.</p>
+
+          <h3 className="text-lg font-semibold mb-2">Our Ventures</h3>
+          <p className="mb-4"><strong>mVara</strong> (mvara.ai) is our AI memory and intelligence platform. RELAY is a commercial product requiring a separate license agreement.</p>
+          <p className="mb-4"><strong>AgentDoor</strong> (agentdoor.ai) hosts our open source tools under the MIT License, including Geniuz, Clawmark, Token Scout, and Sendblue MCP.</p>
+
+          <h3 className="text-lg font-semibold mb-2">Website Content</h3>
+          <p className="mb-4">The website design, text, graphics, and logos are owned by Managed Ventures LLC and may not be reproduced without permission.</p>
+
           <h3 className="text-lg font-semibold mb-2">Disclaimer</h3>
-          <p className="mb-4">
-            The information and services on the website are provided on an 'as is' basis. Managed Ventures LLC makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
-          </p>
-          <p className="mb-4">
-            Further, Managed Ventures LLC does not warrant or make any representations concerning the accuracy, likely results, or reliability of the use of the materials on its website or otherwise relating to such materials or on any sites linked to this site.
-          </p>
-          
+          <p className="mb-4">All content is provided &quot;as-is&quot; without warranties of any kind, express or implied, including warranties of merchantability, fitness for a particular purpose, or non-infringement.</p>
+
+          <h3 className="text-lg font-semibold mb-2">Limitation of Liability</h3>
+          <p className="mb-4">To the maximum extent permitted by law, Managed Ventures LLC shall not be liable for any indirect, incidental, special, or consequential damages arising from your use of this website.</p>
+
           <h3 className="text-lg font-semibold mb-2">Governing Law</h3>
-          <p className="mb-4">These terms and conditions are governed by and construed in accordance with the laws of Arizona, USA and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.</p>
+          <p className="mb-4">These terms are governed by the laws of the State of California. Any disputes shall be resolved through mediation, and if unresolved, by binding arbitration administered by JAMS in Scottsdale, Arizona.</p>
+
+          <p className="mb-4">
+            Managed Ventures LLC<br />
+            Email: <a href="mailto:legal@managedv.com" className="text-primary hover:underline">legal@managedv.com</a>
+          </p>
         </div>
       );
     } else if (contentType === 'privacy') {
       content = (
         <div className="text-gray-300">
           <h2 className="text-xl font-bold mb-4">Privacy Policy</h2>
-          <p className="mb-4"><strong>Effective Date:</strong> June 1, 2024</p>
-          <p className="mb-4"><strong>Managed Ventures</strong> ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website managedv.com, including any other media form, media channel, mobile website, or mobile application related or connected thereto (collectively, the "Site"). Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site.</p>
-          
-          <h3 className="text-lg font-semibold mb-2">1. Information We Collect</h3>
-          <p className="mb-4">We may collect information about you in a variety of ways. The information we may collect on the Site includes:</p>
-          
-          <h4 className="text-md font-semibold mb-2">Personal Data</h4>
-          <p className="mb-4">Personally identifiable information, such as your name, shipping address, email address, and telephone number, and demographic information, such as your age, gender, hometown, and interests, that you voluntarily give to us when you register with the Site or when you choose to participate in various activities related to the Site, such as online chat and message boards.</p>
-          
-          <h4 className="text-md font-semibold mb-2">Derivative Data</h4>
-          <p className="mb-4">Information our servers automatically collect when you access the Site, such as your IP address, your browser type, your operating system, your access times, and the pages you have viewed directly before and after accessing the Site.</p>
-          
-          <h4 className="text-md font-semibold mb-2">Financial Data</h4>
-          <p className="mb-4">Financial information, such as data related to your payment method (e.g., valid credit card number, card brand, expiration date) that we may collect when you purchase, order, return, exchange, or request information about our services from the Site.</p>
-          
-          <h3 className="text-lg font-semibold mb-2">2. Use of Your Information</h3>
-          <p className="mb-4">Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the Site to:</p>
+          <p className="mb-4"><strong>Effective Date:</strong> April 1, 2026</p>
+          <p className="mb-4"><strong>Managed Ventures LLC</strong> operates this website.</p>
+
+          <h3 className="text-lg font-semibold mb-2">What We Collect</h3>
+          <p className="mb-4">This website does not use cookies, tracking pixels, or analytics services. We do not create user accounts. If you contact us, we collect only the information you provide (name, email, message).</p>
+
+          <h3 className="text-lg font-semibold mb-2">What We Don&apos;t Do</h3>
           <ul className="list-disc pl-6 mb-4">
-            <li>Create and manage your account.</li>
-            <li>Process your transactions and send you related information, including purchase confirmations and invoices.</li>
-            <li>Administer sweepstakes, promotions, and contests.</li>
-            <li>Request feedback and contact you about your use of the Site.</li>
-            <li>Resolve disputes and troubleshoot problems.</li>
-            <li>Respond to product and customer service requests.</li>
-            <li>Send you a newsletter.</li>
-            <li>Prevent fraudulent transactions, monitor against theft, and protect against criminal activity.</li>
-            <li>Fulfill and manage purchases, orders, payments, and other transactions related to the Site.</li>
+            <li>We do not track visitors to this website.</li>
+            <li>We do not use cookies.</li>
+            <li>We do not sell data.</li>
+            <li>We do not use your data to train AI models.</li>
           </ul>
-          
-          <h3 className="text-lg font-semibold mb-2">3. Contact Us</h3>
-          <p className="mb-4">If you have questions or comments about this Privacy Policy, please contact us at:</p>
+
+          <h3 className="text-lg font-semibold mb-2">Your Rights</h3>
+          <p className="mb-4">You may request access to, correction of, or deletion of any personal information we hold about you by emailing legal@managedv.com. California residents have additional rights under the CCPA. We do not sell personal information.</p>
+
+          <h3 className="text-lg font-semibold mb-2">Security</h3>
+          <p className="mb-4">We use standard security practices to protect any information you provide. However, no method of transmission over the internet is completely secure.</p>
+
           <p className="mb-4">
-            Managed Ventures<br />
-            Email: legal@managedv.com
+            Managed Ventures LLC<br />
+            Email: <a href="mailto:legal@managedv.com" className="text-primary hover:underline">legal@managedv.com</a>
           </p>
         </div>
       );
     } else if (contentType === 'license') {
       content = (
         <div className="text-gray-300">
-          <h2 className="text-xl font-bold mb-4">PROPRIETARY LICENSE AGREEMENT</h2>
-          <p className="mb-4">Copyright © 2025 Managed Ventures LLC. All Rights Reserved.</p>
-          
-          <p className="mb-4">
-            This software and its documentation, including all content, code, design, and associated materials (the "Software"), are the confidential and proprietary information of Managed Ventures LLC ("Company").
-          </p>
-          
-          <p className="mb-4">
-            This proprietary license agreement ("Agreement") governs the use of the Software. By accessing, downloading, installing, copying, or otherwise using the Software, you agree to be bound by the terms of this Agreement.
-          </p>
-          
-          <h3 className="text-lg font-semibold mb-2">1. OWNERSHIP</h3>
-          <p className="mb-4">
-            All right, title, and interest in and to the Software, including all intellectual property rights, are and shall remain the exclusive property of the Company. The Software is protected by copyright, trade secret, and other intellectual property laws.
-          </p>
-          
-          <h3 className="text-lg font-semibold mb-2">2. LICENSE GRANT</h3>
-          <p className="mb-4">
-            Subject to the terms and conditions of this Agreement, the Company grants you a limited, non-transferable, non-sublicensable, revocable license to use the Software solely for your internal business purposes.
-          </p>
-          
-          <h3 className="text-lg font-semibold mb-2">3. RESTRICTIONS</h3>
-          <p className="mb-4">You shall not, and shall not permit any third party to:</p>
-          <p className="mb-4">
-            a) Copy, modify, adapt, translate, or create derivative works of the Software;<br />
-            b) Reverse engineer, decompile, disassemble, or otherwise attempt to derive the source code of the Software;<br />
-            c) Rent, lease, distribute, sell, resell, assign, or otherwise transfer rights to the Software;<br />
-            d) Remove any proprietary notices or labels from the Software;<br />
-            e) Use the Software for any purpose not expressly permitted by this Agreement.
-          </p>
-          
-          <h3 className="text-lg font-semibold mb-2">4. CONFIDENTIALITY</h3>
-          <p className="mb-4">
-            The Software contains valuable trade secrets and proprietary information of the Company. You shall maintain the confidentiality of the Software and shall not disclose the Software to any third party without the prior written consent of the Company.
-          </p>
-          
-          <h3 className="text-lg font-semibold mb-2">5. WARRANTY DISCLAIMER</h3>
-          <p className="mb-4">
-            THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND. THE COMPANY DISCLAIMS ALL WARRANTIES, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WITHOUT LIMITATION ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
-          </p>
-          
-          <h3 className="text-lg font-semibold mb-2">6. LIMITATION OF LIABILITY</h3>
-          <p className="mb-4">
-            IN NO EVENT SHALL THE COMPANY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION DAMAGES FOR LOST PROFITS, LOSS OF USE, LOSS OF DATA, OR BUSINESS INTERRUPTION, ARISING OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THIS AGREEMENT.
-          </p>
-          
-          <h3 className="text-lg font-semibold mb-2">7. TERMINATION</h3>
-          <p className="mb-4">
-            This Agreement shall continue until terminated. The Company may terminate this Agreement at any time if you breach any provision of this Agreement. Upon termination, you shall cease all use of the Software and destroy all copies of the Software in your possession or control.
-          </p>
-          
-          <h3 className="text-lg font-semibold mb-2">8. GENERAL</h3>
-          <p className="mb-4">
-            This Agreement shall be governed by and construed in accordance with the laws of the United States and the State of California, without giving effect to any principles of conflicts of law. Any dispute arising out of or relating to this Agreement shall be subject to the exclusive jurisdiction of the state and federal courts located in California.
-          </p>
-          
+          <h2 className="text-xl font-bold mb-4">Software Licensing</h2>
+          <p className="mb-4">Copyright &copy; 2026 Managed Ventures LLC. All Rights Reserved.</p>
+
+          <h3 className="text-lg font-semibold mb-2">Open Source (MIT License)</h3>
+          <p className="mb-4">The following products are available under the MIT License at github.com/jackccrawford: Geniuz, Clawmark, Token Scout, Sendblue MCP. Full license text is available in each repository.</p>
+
+          <h3 className="text-lg font-semibold mb-2">Commercial Products</h3>
+          <p className="mb-4">RELAY is a proprietary commercial product owned by Managed Ventures LLC. RELAY is not open source and requires a separate written license agreement. For licensing inquiries, contact legal@managedv.com.</p>
+
+          <h3 className="text-lg font-semibold mb-2">Website</h3>
+          <p className="mb-4">All website content, design, and branding are proprietary and may not be reproduced without written permission.</p>
+
           <p className="mb-4">
             Managed Ventures LLC<br />
             18291 N Pima Rd, Suite 110-411<br />
-            Scottsdale, AZ 85258<br />
-            legal@managedv.com
+            Scottsdale, AZ 85255<br />
+            <a href="mailto:legal@managedv.com" className="text-primary hover:underline">legal@managedv.com</a>
           </p>
         </div>
       );
@@ -268,25 +210,44 @@ export default function Home() {
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.5, duration: 0.8 }}
-            className="w-full max-w-xl mx-auto relative mt-8"
+            className="w-full max-w-2xl mx-auto relative mt-8 grid md:grid-cols-2 gap-6"
           >
             <div className="relative group">
-              <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-blue-500/10 rounded-xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
-              <div className="relative bg-white border border-gray-200 rounded-xl p-6 shadow-lg">
-                <div className="flex flex-wrap items-center justify-between mb-4 gap-2">
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
+              <div className="relative bg-white border border-gray-200 rounded-xl p-6 shadow-lg h-full">
+                <div className="flex items-center justify-between mb-4">
                   <a href="https://mvara.ai" target="_blank" className="flex items-center gap-2 hover:opacity-90 transition-opacity">
-                    <Image src="/images/mvara-logo-white.svg" alt="mVara.ai Logo" width={32} height={32} className="h-8 w-auto" priority />
+                    <Image src="/images/mvara-logo-white.svg" alt="mVara Logo" width={32} height={32} className="h-8 w-auto" priority />
                   </a>
-                  <a 
-                    href="https://mvara.ai" 
-                    target="_blank" 
-                    className="bg-blue-600 hover:bg-purple-500 text-white font-medium px-4 py-2 rounded-md transition-all hover:shadow-lg active:bg-purple-600 active:scale-95 text-sm sm:text-base whitespace-nowrap"
+                  <a
+                    href="https://mvara.ai"
+                    target="_blank"
+                    className="bg-blue-600 hover:bg-purple-500 text-white font-medium px-3 py-1.5 rounded-md transition-all hover:shadow-lg active:scale-95 text-sm whitespace-nowrap"
                   >
-                    Transform Your Enterprise
+                    mvara.ai
                   </a>
                 </div>
-                <p className="text-gray-700 mb-4">
-                  Our flagship venture mVara.ai provides AI Advisory & Enablement for Modern Enterprises. As an Official Windsurf Partner, mVara.ai delivers measurable results with 3x ROI in the first year, reducing backlogs by 40% and time-to-market by 30%.
+                <p className="text-gray-700 text-sm">
+                  AI memory and intelligence infrastructure. RELAY gives teams persistent, shared knowledge that their AI remembers across every session.
+                </p>
+              </div>
+            </div>
+
+            <div className="relative group">
+              <div className="absolute inset-0 bg-gradient-to-r from-orange-500/10 to-yellow-500/10 rounded-xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
+              <div className="relative bg-white border border-gray-200 rounded-xl p-6 shadow-lg h-full">
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-xl font-bold text-gray-900">AgentDoor</span>
+                  <a
+                    href="https://agentdoor.ai"
+                    target="_blank"
+                    className="bg-gray-900 hover:bg-gray-700 text-white font-medium px-3 py-1.5 rounded-md transition-all hover:shadow-lg active:scale-95 text-sm whitespace-nowrap"
+                  >
+                    agentdoor.ai
+                  </a>
+                </div>
+                <p className="text-gray-700 text-sm">
+                  Open source tools for AI agents. Geniuz, Clawmark, Token Scout, and more — free on GitHub.
                 </p>
               </div>
             </div>
