@@ -2,6 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
+  icons: {
+    icon: '/favicon.png',
+  },
   title: 'ManagedV - Building AI-First Ventures',
   description: 'Premier AI venture builder and technology incubator in Scottsdale. Managed Ventures LLC specializes in launching, innovating, and scaling AI-first companies with proven expertise. Transform your visionary AI concepts into market-changing realities.',
   keywords: 'AI ventures, startup incubator, AI investment, venture building, AI innovation, tech startups, Scottsdale',
