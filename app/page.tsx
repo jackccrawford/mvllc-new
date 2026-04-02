@@ -212,45 +212,29 @@ export default function Home() {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="w-full max-w-2xl mx-auto relative mt-8 grid md:grid-cols-2 gap-6"
           >
-            <div className="relative group">
+            <a href="https://mvara.ai" target="_blank" className="relative group block">
               <div className="absolute inset-0 bg-gradient-to-r from-blue-500/10 to-purple-500/10 rounded-xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
-              <div className="relative bg-white border border-gray-200 rounded-xl p-6 shadow-lg h-full">
-                <div className="flex items-center justify-between mb-4">
-                  <a href="https://mvara.ai" target="_blank" className="flex items-center gap-2 hover:opacity-90 transition-opacity">
-                    <Image src="/images/mvara-relay-wordmark-light.png" alt="mVara RELAY" width={120} height={32} className="h-7 w-auto" priority />
-                  </a>
-                  <a
-                    href="https://mvara.ai"
-                    target="_blank"
-                    className="bg-blue-600 hover:bg-purple-500 text-white font-medium px-3 py-1.5 rounded-md transition-all hover:shadow-lg active:scale-95 text-sm whitespace-nowrap"
-                  >
-                    mvara.ai
-                  </a>
+              <div className="relative bg-white border border-gray-200 rounded-xl p-6 shadow-lg h-full group-hover:shadow-xl transition-shadow">
+                <div className="mb-4">
+                  <Image src="/images/mvara-relay-wordmark-light.png" alt="mVara RELAY" width={120} height={32} className="h-7 w-auto" priority />
                 </div>
                 <p className="text-gray-700 text-sm">
                   AI memory and intelligence infrastructure. RELAY gives teams persistent, shared knowledge that their AI remembers across every session.
                 </p>
               </div>
-            </div>
+            </a>
 
-            <div className="relative group">
+            <a href="https://agentdoor.ai" target="_blank" className="relative group block">
               <div className="absolute inset-0 bg-gradient-to-r from-orange-500/10 to-yellow-500/10 rounded-xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
-              <div className="relative bg-white border border-gray-200 rounded-xl p-6 shadow-lg h-full">
-                <div className="flex items-center justify-between mb-4">
-                  <span className="text-xl font-bold text-gray-900">AgentDoor</span>
-                  <a
-                    href="https://agentdoor.ai"
-                    target="_blank"
-                    className="bg-gray-900 hover:bg-gray-700 text-white font-medium px-3 py-1.5 rounded-md transition-all hover:shadow-lg active:scale-95 text-sm whitespace-nowrap"
-                  >
-                    agentdoor.ai
-                  </a>
+              <div className="relative bg-white border border-gray-200 rounded-xl p-6 shadow-lg h-full group-hover:shadow-xl transition-shadow">
+                <div className="mb-4">
+                  <span className="text-xl font-bold text-gray-900">agent<span className="text-orange-500">door</span></span>
                 </div>
                 <p className="text-gray-700 text-sm">
                   Open source tools for AI agents. Geniuz, Clawmark, Token Scout, and more — free on GitHub.
                 </p>
               </div>
-            </div>
+            </a>
           </motion.div>
 
           <motion.div
