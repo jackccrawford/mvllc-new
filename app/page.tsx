@@ -247,12 +247,18 @@ export default function Home() {
             <a href="https://geniuz.life" target="_blank" className="relative group block">
               <div className="absolute inset-0 bg-gradient-to-r from-amber-500/10 to-orange-500/10 rounded-xl blur-xl group-hover:blur-2xl transition-all duration-500"></div>
               <div className="relative bg-white border border-gray-200 rounded-xl p-6 shadow-lg h-full group-hover:shadow-xl transition-shadow">
-                <div className="mb-4 flex items-center gap-2">
-                  <Image src="/images/geniuz-icon.svg" alt="" width={28} height={28} className="h-7 w-auto" />
-                  <span className="text-gray-900 text-xl font-bold tracking-tight">Geniuz</span>
+                <div className="mb-4 flex items-center gap-3">
+                  <Image src="/images/geniuz-icon.svg" alt="Geniuz" width={44} height={44} className="rounded-lg" />
+                  <span
+                    className="text-gray-900 tracking-tight inline-flex items-baseline"
+                    style={{ fontFamily: '"Newsreader", Georgia, serif', fontWeight: 600, fontSize: '26px', lineHeight: 1, gap: '6px' }}
+                  >
+                    Geniuz
+                    <span style={{ display: 'inline-block', width: '7px', height: '7px', borderRadius: '50%', background: '#CF5535', alignSelf: 'center' }} />
+                  </span>
                 </div>
                 <p className="text-gray-700 text-sm">
-                  Open-source memory for AI agents. MIT-licensed, runs on your machine, no account. The substrate that lets your AI remember across every session.
+                  Open-source persistent memory for AI agents. MIT-licensed, runs on your own machine. The substrate that lets your AI keep what mattered, across every session.
                 </p>
               </div>
             </a>
